@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* 1st part */
+
+.heads{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 0 0 1px black;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+
+nav a:hover{
+    color: #016241;
+   
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin: 0 20px;
+    
+}
+
+
+.container{
+    display: flex;
+   
+    outline: none;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+
+
+.brand img{
+    width: 40px;
+    height: 40px;
+}
+
+.nav-left{
+    text-transform: uppercase;
+    flex: 1;
+    
+    justify-content: center;
+}
+
+.nav-right .aligns a{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.6s ease;
+    border-radius: 20px;
+    border-color: black;
+    text-align: center;
+}
+
+.nav-right button:hover{
+    background-color: #016241;
+    color: white;
+    border-color:#016241;
+}
+
+
+.nav-right img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    filter: brightness(0%);
+}
+
+.nav-right img:hover{
+    color: #016241;
+}
+
+/* 2nd part */
+
+.box-inside{
+    background-color: #016241;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.boxes-button{
+    padding: 10px 0px;
+    font-size: 20px;
+  
+}
+
+.boxes-para{
+    text-align: center;
+    font-size: 25px;
+    padding: 12px 0;
+    margin-bottom: 15px;
+}
+
+.boxes-head{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+    margin-top: 10px;
+}
