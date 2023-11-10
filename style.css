@@ -13,6 +13,7 @@
     width: 100%;
     height: auto;
     padding: 20px;
+    margin-bottom: 30px;
     box-shadow: 0 0 0 1px black;
 
 }
@@ -130,14 +131,7 @@ img{
 
 }
 
-.boxes{
-    background-color: #016241;
-    color: white;
-    text-align: center;
-    padding: 30px 0px;
-    margin-bottom: 32px;
 
-}
 
 .boxes-inside{
     max-width: 700px;
@@ -384,4 +378,82 @@ img{
     padding: 12px 0px;
     margin-bottom: 20px;
     line-height: 2;
+}
+
+
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+    max-width: 1000px;
+    margin: 0 auto;  
+}
+
+
+.social-media h1{
+    color: #1E3932;
+}
+
+
+.pics{
+   
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: all 0.4s ease;
+}
+
+.pics:hover{
+   transform: scale(0.80);
+}
+
+.about-header-1{
+    margin-bottom: 15px;
+    
+}
+
+
+
+.about-us{
+    display: flex;
+    gap: 70px;
+    
+}
+
+.about-us a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 19px;
+    font-size: 17px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.career{
+    display: flex;
+    flex-direction: column;
+}
+
+.Impact{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header{
+    margin-bottom: 15px;
+    color: #1E3932;
+}
+
+.paragraph{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-size: 20px ;
 }
