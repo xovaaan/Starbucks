@@ -486,7 +486,12 @@ img{
     }
 
     .btn-5{
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+    }
+
+    .btn-2, .btn-3 ,.btn-4{
+        margin-bottom: 40px;
+        margin-top: 10px;
     }
 
     .social-media a{
@@ -497,7 +502,7 @@ img{
          margin: 0; 
     }
 
-   
+
     .box-inside {
         text-align: center;
     }
